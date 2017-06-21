@@ -1,4 +1,6 @@
-
+body {
+    padding:0px 0px;
+}
 /* General */
 
 .img-circle {
@@ -32,10 +34,45 @@ button {
 /* General */
 
 
-/* Navbar */
+/* Navbar and Modal */
+#nav {
+  background-color: #383737;
+  width: 100%;
+  border-radius: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
+#navDetails {
+  margin-right: 60px;
+}
 
-/* Navbar */
+.modalBtn {
+  width: 100%;
+  border: 1px solid #e85709;
+  border-radius: 0px;
+  background-color: #e85709;
+  color: #ffffff;
+}
+
+.modalBtn:hover {
+  background-color: #ff7226;
+  border: 1px solid #ff7226;
+}
+
+.inputs {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.modalHeaders {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.modal-content {
+  padding-bottom: 100px;
+}
+/* Navbar and Modal*/
 
 
 /* Image Gallery */
@@ -48,7 +85,9 @@ button {
   width: 100%;
 }
 
-
+#galleryContainer {
+  padding-top: 50px;
+}
 /* Image Gallery */
 
 
@@ -111,3 +150,9 @@ button {
 body{
     background: #F1F1F1;
 }
+
+/* map */
+#mapContainer {
+  box-shadow: 0 0 10px #ccc;
+}
+/* map */
